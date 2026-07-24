@@ -1,3 +1,4 @@
 ﻿# 다른 세션에서 작업 중인 한글(HWPX) 보고서 스킬 - 업로드 제외
 .claude/skills/pnu-hwpx-report/
-*.hwpx
+# 루트의 공모전 문서(다른 세션 산출물)만 제외 - research/ 안의 최종 hwpx는 커밋 허용
+/*.hwpx
